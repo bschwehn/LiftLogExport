@@ -1,0 +1,8 @@
+# These docker ignore commands will reduce the amount of files sent to the docker context
+
+# Ignore bin and obj directories at any depth
+**/bin/
+**/obj/
+
+# Include only files and folders starting with LiftLog
+!LiftLog*
